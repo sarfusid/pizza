@@ -16,6 +16,7 @@
     "main": "^1000.0.1"
   },
   "devDependencies": {
+    "laravel-mix": "^6.0.2",
     "nodemon": "^2.0.6"
   }
 }

@@ -1,22 +1,3 @@
-/*const express = require('express')
-const app = express()
-const PORT = process.env.PORT || 3000
-const path = require('path')
-const ejs = require('ejs')
-const expressLayout = require('express-js-layouts')
-
- 
-app.get('/',(req,res) =>{
-    res.render('home')
-})
-
-app.Use(expressLayout)
-app.set('views',path.join(__dirname,'/Recources/views'),
-app.set('view engine','ejs'),
-
-app.listen(PORT,() =>{
-    console.log(`login on prt 3000, ${PORT}`)
-})*/
 const express = require('express')
 const app = express()
 const ejs = require('ejs')
